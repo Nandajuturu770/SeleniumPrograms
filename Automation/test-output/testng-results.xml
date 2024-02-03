@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Logo is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[Logo is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[text box is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[text box is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[dowload box is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[dowload box is displayed ]]>
+    </line>
+    <line>
+      <![CDATA[nanda]]>
+    </line>
+    <line>
+      <![CDATA[kiran]]>
+    </line>
+    <line>
+      <![CDATA[juturu]]>
+    </line>
+    <line>
+      <![CDATA[nanda]]>
+    </line>
+    <line>
+      <![CDATA[kiran]]>
+    </line>
+    <line>
+      <![CDATA[juturu]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-29T20:55:58 IST" name="Suite" finished-at="2023-12-29T20:56:03 IST" duration-ms="5750">
+    <groups>
+    </groups>
+    <test started-at="2023-12-29T20:55:58 IST" name="Test1" finished-at="2023-12-29T20:56:03 IST" duration-ms="5750">
+      <class name="testingK.Verify">
+        <test-method signature="verify()[pri:0, instance:testingK.Verify@2b71e916]" started-at="2023-12-29T20:55:58 IST" name="verify" finished-at="2023-12-29T20:56:03 IST" duration-ms="5689" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[text box is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[dowload box is displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify -->
+      </class> <!-- testingK.Verify -->
+      <class name="testingK.TestDemo">
+        <test-method signature="display()[pri:0, instance:testingK.TestDemo@1d296da]" started-at="2023-12-29T20:56:03 IST" name="display" finished-at="2023-12-29T20:56:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[nanda]]>
+            </line>
+            <line>
+              <![CDATA[kiran]]>
+            </line>
+            <line>
+              <![CDATA[juturu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- testingK.TestDemo -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-12-29T20:55:58 IST" name="Test2" finished-at="2023-12-29T20:56:03 IST" duration-ms="5725">
+      <class name="testingK.Verify">
+        <test-method signature="verify()[pri:0, instance:testingK.Verify@ba2f4ec]" started-at="2023-12-29T20:55:58 IST" name="verify" finished-at="2023-12-29T20:56:03 IST" duration-ms="5655" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logo is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[text box is displayed ]]>
+            </line>
+            <line>
+              <![CDATA[dowload box is displayed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verify -->
+      </class> <!-- testingK.Verify -->
+      <class name="testingK.TestDemo">
+        <test-method signature="display()[pri:0, instance:testingK.TestDemo@1c1bbc4e]" started-at="2023-12-29T20:56:03 IST" name="display" finished-at="2023-12-29T20:56:03 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[nanda]]>
+            </line>
+            <line>
+              <![CDATA[kiran]]>
+            </line>
+            <line>
+              <![CDATA[juturu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- display -->
+      </class> <!-- testingK.TestDemo -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
