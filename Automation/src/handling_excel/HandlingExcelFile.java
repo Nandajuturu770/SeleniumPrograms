@@ -1,4 +1,4 @@
-package HandlingExcelFile;
+package handling_excel;
 
 import java.io.FileInputStream;
 import java.io.IOException;

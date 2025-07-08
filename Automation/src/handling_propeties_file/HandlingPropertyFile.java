@@ -1,4 +1,4 @@
-package handlingPropetiesFile;
+package handling_propeties_file;
 
 import java.io.FileInputStream;
 import java.io.IOException;

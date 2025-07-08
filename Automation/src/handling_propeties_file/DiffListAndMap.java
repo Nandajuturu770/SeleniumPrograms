@@ -1,4 +1,4 @@
-package handlingPropetiesFile;
+package handling_propeties_file;
 
 import java.util.ArrayList;
 import java.util.HashMap;
