@@ -12,7 +12,7 @@ public static void main(String[] args) {
 	WebDriver dr = new ChromeDriver();
 	// to enter the url
 	dr.get("https://www.amazon.in/");
-	dr.manage().window().maximixe();
+	dr.manage().window().maximize();
 	// to get address the browser and store
 	String wh = dr.getWindowHandle();
 	// to print
