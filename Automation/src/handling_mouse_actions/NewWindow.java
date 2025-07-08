@@ -1,4 +1,4 @@
-package HandlingMouseAction;
+package handling_mouse_actions;
 
 import java.awt.AWTException;
 import java.awt.Desktop.Action;

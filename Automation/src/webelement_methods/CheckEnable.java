@@ -1,41 +1,41 @@
 
-/* to check whether the button is enabled or not by using isEnabled() method of web element interface*/
+/* to check whether the button is enabled or not by using isEnabled() method of web element interface */
 
 package webelement_methods;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class CheckEnable {
 
-	public static void main(String[] args) throws InterruptedException {
-		// to open browser
-		WebDriver drive = new ChromeDriver();
-		checkEnable(drive);
-	}
-	public static void checkEnable(WebDriver dr ) throws InterruptedException {
-		// to sleep 
-		Thread.sleep(2000);
-		// to maximize 
-		dr.manage().window().maximize();
-		Thread.sleep(2000);
-		// to enter url
-		dr.get("https://www.facebook.com/");
-		Thread.sleep(2000);
-		// to find the element
-		/* isEnabled() : 
-		 * which is used to check whether the button is enabled or not 
-		 * it will return the boolean value */
-		boolean n = dr.findElement(By.xpath("//button[@name='login']")).isEnabled();
-		Thread.sleep(2000);
-		// to display the result according to out put of boolean value
-		if (n == true)
+	public static void main(String[] args) {
+		// set up broweser
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("\"https://www.facebook.com/");
+		// to find the elment 
+		WebElement elemement = driver.findElement(By.xpath("//button[@name='login']"));
+		if(checkElementIsEnabled(elemement))
 			System.out.println(" the login button is enable \" passed \"");
 		else
 			System.out.println(" the login button is \"not\" enabled \"failed\"");
-		// to close the browser 
-		dr.quit();
+		driver.quit();	
+	}
 
+
+	/**
+	 * @description this method is used to check the givem element is enabled or not.
+	 * @param elemement <code>WebElement</code>
+	 * @return status   <code>boolean</code>
+	 */
+	public static boolean checkElementIsEnabled(WebElement elemement) {
+		try {
+			return elemement.isEnabled();
+		}catch (Exception exception) {
+			System.err.println(exception.getMessage());
+			return false;
+		}
 	}
 }
